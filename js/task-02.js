@@ -20,5 +20,4 @@ const divs = Array.from({ length: ingredients.length }).map((_, i) => {
   el.setAttribute("class", "item");
   return el;
 });
-console.log(divs);
 document.getElementById("ingredients").append(...divs);
