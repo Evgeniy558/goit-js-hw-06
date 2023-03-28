@@ -15,7 +15,7 @@ const images = [
 
 const stylesEl = document.createElement("style");
 stylesEl.textContent =
-  ".gallery {display: flex; flex-direction:column; } .img{display:block; width: 1000px;} ";
+  ".gallery { display: flex;  align-items: center; flex-direction:column;  list-style-type: none; gap: 10px} .img{ width:150px;} ";
 document.querySelector("body").prepend(stylesEl);
 
 const arrayLi = images.map(

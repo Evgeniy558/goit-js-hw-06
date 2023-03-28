@@ -14,7 +14,7 @@ function createBoxes() {
   let sizeBox = 30;
   for (let i = 1; i <= numberOfBoxes.value; i++) {
     const box = document.createElement("div");
-    placeForBoxes.prepend(box);
+    placeForBoxes.append(box);
     console.log(box);
     box.style.width = sizeBox + "px";
     box.style.height = sizeBox + "px";
